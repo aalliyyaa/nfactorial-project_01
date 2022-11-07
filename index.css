@@ -1,0 +1,281 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    /* width: 1440px; */
+    height: 2386px;
+    
+    background: #F1F1F1;
+}
+
+section, header, footer{
+    display: flex;
+    width: 1440px;
+    padding: 12px 80px;
+}
+
+/* <!-- Header : logo+nav --> */
+
+header{
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 62px;
+}
+
+.logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+height: 22px;
+
+font-family: 'Kanit';
+font-weight: 500;
+font-size: 18px;
+text-decoration: none;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+color: #000000;
+
+}
+
+nav {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 410px;
+height: 38px;
+}
+
+/* Buttons */
+
+nav button, footer button {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10px 12px;
+gap: 8px;
+border: none;
+min-width:fit-content;
+color: #081E34;
+border-radius: 100px;
+}
+
+.nav_btn{
+background: rgba(8, 30, 52, 0.12);
+}
+
+.nav_btn:hover{
+    background: rgba(8, 30, 52, 0.08);
+}
+
+nav button:hover{
+    background: rgba(8, 30, 52, 0.12);
+    cursor: pointer; 
+}
+
+.section1 button, .section3 button, .section4 button{
+display: flex;
+padding: 16px 24px;
+min-width:fit-content;
+border: none;
+color: white;
+background: #712FFF;
+border-radius: 100px;
+}
+.section1 button:hover, .section3 button:hover, .section4 button:hover, footer button:hover, footer i:hover{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* <!-- Description sec --> */
+.section1{
+flex-direction: row;
+align-items: flex-start;
+gap: 320px;
+height: 620px;
+padding: 78px 80px;
+}
+
+.section1 p, .section4 p{
+    margin-bottom: 40px;
+}
+
+/* <!-- How it works --> */
+
+.section2{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 100px 80px;
+height: 600px;
+
+background: #E1DEE7;
+border-radius: 32px;
+}
+
+.info h1{
+    margin-top: 3px;
+}
+
+.info p{
+    text-align:center;
+    margin-bottom: 0px;
+}
+
+
+.frame{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 1440px;
+height: 186px;
+}
+
+/* <!-- get started --> */
+
+.section3{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 80px;
+    gap: 32px;
+    height: 422px;  
+    inline-size: 495px;
+    overflow-wrap: break-word;
+}
+
+.section3 h1{
+    margin-bottom: 20px;
+}
+.search{
+    display: flex;
+    flex-direction: row;  
+    gap: 32px;
+}
+
+.input-search{
+    background-image: url(images/Search.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+input{
+box-sizing: border-box;
+width: 619px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #E1DEE7;
+border-radius: 12px;
+
+}
+
+/* <!-- CV submission --> */
+
+.section4{
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 80px;
+    gap: 128px;
+    height: 548px;
+    }
+
+    /* Footer */
+
+footer{
+flex-direction: column;
+align-items: flex-end;
+padding: 32px 80px;
+gap: 32px;
+height: 172px;
+background: #FFFFFF;
+border-radius: 32px 32px 0px 0px;
+color: #081E34;
+
+
+}
+
+.footer_menu1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 0px;
+width: 1440px;
+height: 38px;
+}
+
+footer button{
+    background-color: #FFFFFF;
+}
+
+.footer_menu2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;  
+}
+
+footer i{
+    padding: 5px 10px 0px 0px;
+}
+
+.footer_menu1 p, .footer_menu1 a{
+color: #081E34;
+opacity: 0.5;
+}
+
+footer p{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/* Font styling */
+
+
+h1{
+font-family: 'Kanit';
+font-weight: 700;
+font-size: 54px;
+
+}
+
+p{
+font-family: 'Inter';
+font-weight: 500;
+font-size: 16px;
+}
+
+h2{
+font-family: 'Inter';
+font-weight: 700;
+font-size: 24px;
+}    
+
+
+button{
+font-family: 'Inter';
+font-weight: 500;
+font-size: 14px;
+}
+
+
+/* images */
+
+#visual_content{
+display: flex;
+justify-content: center;
+padding: 12px, 34px;
+
+}
